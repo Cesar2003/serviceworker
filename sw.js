@@ -9,6 +9,7 @@ self.addEventListener('install', function(e) {
       return cache.addAll([
        
                   '/serviceworker/',
+                  '/serviceworker/none.html',
                   '/serviceworker/index.html',
                   '/serviceworker/main.js',
                   '/serviceworker/style.css'
